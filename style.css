@@ -1,0 +1,193 @@
+
+/* style css  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    max-width: 405px;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+/* common css */
+.section-padding{
+    padding: 60px 0;
+}
+footer ul {
+    margin: 0;
+}
+li {
+    list-style: none;
+    line-height: 30px;
+    color: #fff;
+}
+.section-header h2 {
+    padding-bottom: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+
+/* button */
+.btn-primary{
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    padding: 12px 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #34b67b;
+    border-color: none;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #21B573;
+    border: none;
+}
+
+/* navbarsection */
+.navbar-section {
+    background: #f1fff0;
+}
+li.nav-item {
+    margin: 0 12px;
+}
+.navbar-item{
+    margin-left: auto;
+}
+.navbar-brand img{
+    width: 198.07px;
+    height: 59px;
+    left: 212px;
+    top: 30px;
+}
+.sing-in {
+    width: 120px;
+}
+.sing-in li a.btn-primary {
+    color: #fff !important;
+}
+
+/* banner css */
+section#bg-color {
+    background: #f1fff0;
+}
+
+/* card */
+.book-section img {
+    max-width: 80px;
+    max-height: 94px;
+    margin: 0 auto;
+}
+.book-section .card {
+    border: none;
+    transition: .2s ease;
+    background: #F8FFFB;
+    padding: 30px 0px 0px 0px;
+}
+.book-section .card:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card{
+    margin-bottom: 10px;
+}
+
+
+/* online card */
+.online-course .card {
+    padding: 20px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.online-course .card-body {
+    padding: 0;
+}
+.online-course .blog-calender {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.online-course .blog-calender h6{
+    color: #000;
+}
+.online-course .card-body {
+    margin-top: 21px;
+}
+
+
+/* testimonial */
+.testimonial-flex {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.testimonial-text {
+    padding-left: 40px;
+}
+
+.book{
+    border: #f1fff0;
+    margin:20px;
+    padding: 20px 150px;
+}
+
+/* footer  */
+footer ul li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-padding{
+    padding: 40px 0 20px 0;
+}
+footer#last-part p {
+    color: #fff;
+}
+footer#last-part {
+    background: #282531;
+}
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .testimonial-flex {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .testimonial-text {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 22px;
+    }
+  }
